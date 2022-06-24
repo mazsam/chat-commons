@@ -1,5 +1,5 @@
 import React from 'react'
-const ListItem = ({ user, data }) => {
+const MessageItem = ({ user, data }) => {
   return (
     <div
       className={`flex flex-col${
@@ -22,4 +22,4 @@ const ListItem = ({ user, data }) => {
   )
 }
 
-export default ListItem
+export default MessageItem
