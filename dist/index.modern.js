@@ -61,7 +61,7 @@ var Input = function Input(_ref) {
   })))))));
 };
 
-var ListItem = function ListItem(_ref) {
+var MessageItem = function MessageItem(_ref) {
   var user = _ref.user,
       data = _ref.data;
   return /*#__PURE__*/React.createElement("div", {
@@ -78,5 +78,5 @@ var ListItem = function ListItem(_ref) {
   }, data.message)));
 };
 
-export { ADD_MESSAGE, GET_MESSAGES_SUBSCRIPTION, Input as InputMessage, ListItem };
+export { ADD_MESSAGE, GET_MESSAGES_SUBSCRIPTION, Input as InputMessage, MessageItem };
 //# sourceMappingURL=index.modern.js.map
